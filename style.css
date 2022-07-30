@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.socialicon{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px rgb(65, 59, 71);
+    margin: 10px;
+}
+a i {
+    transition: all.3s linear;
+}
+a:hover i {
+    transform: scale(2);
+}
+.fa-facebook{
+    color: #4267B2;
+}
